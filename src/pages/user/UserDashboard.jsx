@@ -17,7 +17,8 @@ const UserDashboard = () => {
     product.productName.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  return (
+  return ( 
+    
     <>
       <Navbar/>
       <div
