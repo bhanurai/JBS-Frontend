@@ -18,7 +18,7 @@ const UserDashboard = () => {
   );
 
   return ( 
-    
+
     <>
       <Navbar/>
       <div
@@ -27,6 +27,7 @@ const UserDashboard = () => {
         data-bs-ride="carousel"
         data-bs-interval="2000"
       >
+        
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
