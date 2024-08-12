@@ -16,11 +16,12 @@ const SearchBox = () => {
       navigate(`/search/${keyword.trim()}`);
       setKeyword('');
     } else {
+      
       navigate('/');
     }
   };
  
-  
+
   return (
     <Form onSubmit={submitHandler} className='d-flex w-100'>
       <Form.Control
