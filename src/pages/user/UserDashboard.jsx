@@ -83,14 +83,13 @@ const UserDashboard = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <div className="search-bar ms-5 ps-4 mb-4 w-50">
+      <div className="search-bar ms-5 ps-5 mb-4" style={{ width: '90%' }}>
         <input
           type="text"
-          className="form-control "
+          className="form-control"
           placeholder="Search products..."
           value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
+          onChange={(e) => setSearchQuery(e.target.value)}/>
       </div>
       <div className="user-content">
         <div className="container">
@@ -105,7 +104,7 @@ const UserDashboard = () => {
                   <div
                     className="card rounded d-flex flex-column"
                     style={{
-                      height: "450px", // Fixed height for all cards
+                      height: "450px", 
                       boxShadow:
                         "rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px",
                     }}

@@ -122,7 +122,7 @@ const Navbar = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link class="dropdown-item" to="/changepp">
+                        <Link class="dropdown-item" to="/resetpassword">
                           Change password
                         </Link>
                       </li>
