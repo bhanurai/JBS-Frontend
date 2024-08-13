@@ -26,6 +26,7 @@ const Profile = () => {
             setLoading(false);
             return;
         }
+        
 
         getUserProfileApi(userId)
             .then((res) => {
