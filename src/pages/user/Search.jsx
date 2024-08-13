@@ -16,10 +16,11 @@ const SearchBox = () => {
       navigate(`/search/${keyword.trim()}`);
       setKeyword('');
     } else {
-      
+
       navigate('/');
     }
   };
+  
  
 
   return (
