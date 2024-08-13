@@ -27,7 +27,6 @@ import AddToFavorites from "./pages/user/Favorite";
 function App() {
   return (
     <Router>
-      <Navbar />
       <ToastContainer />
       <Routes>
         <Route path="/sendemail" element={<SendEmail />} />
