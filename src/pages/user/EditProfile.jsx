@@ -11,6 +11,7 @@ const EditProfile = () => {
     const navigate = useNavigate();
     const { id } = useParams();
 
+    
     useEffect(() => {
         const fetchUserProfile = async () => {
             try {
