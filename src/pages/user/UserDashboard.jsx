@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { getAllProductsApi } from "../../api/Apis";
+import Navbar from "../../components/NavBar";
 
 const UserDashboard = () => {
   //to load all products
@@ -18,6 +19,7 @@ const UserDashboard = () => {
 
   return (
     <>
+      <Navbar/>
       <div
         id="carouselExample"
         className="carousel slide mb-5"
