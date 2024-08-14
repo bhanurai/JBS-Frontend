@@ -20,7 +20,6 @@ const OrdersPage = ({ userId }) => {
         console.error("Error fetching orders:", error);
         toast.error("Error fetching orders");
       }
-      
     };
 
     fetchOrders();
