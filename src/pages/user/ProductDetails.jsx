@@ -12,6 +12,7 @@ import {
   addFavoriteApi,
 } from "../../api/Apis";
 
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ProductDetails = () => {
