@@ -7,6 +7,7 @@ const OrdersPage = ({ userId }) => {
   const user = JSON.parse(localStorage.getItem("user") || "{}");
 
   useEffect(() => {
+    
     const fetchOrders = async () => {
       try {
         getOrdersByuserId(user._id).then((response) => {
