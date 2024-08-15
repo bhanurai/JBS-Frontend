@@ -7,6 +7,8 @@ import { getFavoritesApi, removeFavoriteApi } from "../../api/Apis";
 const AddToFavorites = ({}) => {
   const [favorites, setFavorites] = useState([]);
 
+
+  
   useEffect(() => {
     const storedUserData = localStorage.getItem("user");
     const parsedUserData = JSON.parse(storedUserData);
