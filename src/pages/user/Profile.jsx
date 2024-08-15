@@ -12,6 +12,7 @@ const Profile = () => {
     const [profileImage, setProfileImage] = useState(null);
     // const [previewProfileImage, setPreviewProfileImage] = useState(null);
 
+    
     useEffect(() => {
         const token = localStorage.getItem("token");
         if (!token) {
@@ -27,7 +28,7 @@ const Profile = () => {
             return;
         }
 
-        
+
 
         getUserProfileApi(userId)
             .then((res) => {
